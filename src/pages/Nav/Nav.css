@@ -1,0 +1,25 @@
+a {
+  font-size: 28px !important;
+  font-weight: 700;
+  font-family: "Times New Roman", Times, serif;
+  color: white !important;
+}
+
+.content {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 132px 0px;
+  color: white !important;
+  font-family: cursive;
+}
+
+@media (max-width: 576px) {
+  .navbar-toggler {
+    background-color: #feece2;
+  }
+  .navbar-collapse {
+    margin: 40px 2px;
+  }
+}

@@ -1,0 +1,39 @@
+.mainPageContent{
+    background-color: #FEECE2;
+    margin-top: 13%;
+
+}
+
+.mainContent{
+    margin-left: 5%;
+    text-align: center;
+}
+
+
+
+.mainContent1{
+    margin-left: 5%;
+    text-align: center;
+    margin-top: 3%;
+}
+
+
+@media (max-width: 576px) {
+    .mainContent {
+        margin-left: 0%;
+        text-align: center;
+    }
+
+    .mainContent1 {
+        margin-left: 0%;
+        text-align: center;
+    }
+}
+
+
+@media (min-width: 577px) and (max-width: 991px) {
+}
+
+@media only screen and (min-width: 1080px) and (max-width: 1440px) {
+
+}
