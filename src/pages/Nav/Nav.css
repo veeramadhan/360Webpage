@@ -20,6 +20,22 @@ a {
     background-color: #feece2;
   }
   .navbar-collapse {
-    margin: 40px 2px;
+    margin: 67px -11px;
+    top: 0;
+    position: absolute;
+    z-index: 1000;
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white */
+    backdrop-filter: blur(10px); /* Apply blur effect */
+    width: 100%;
+    border-radius: 10px; /* Optional: Rounded corners for a nicer look */
   }
+  
+  a {
+    color: black !important;
+  }
+  
+  .navbar-nav{
+    padding-left: 16px;
+  }
+ 
 }
